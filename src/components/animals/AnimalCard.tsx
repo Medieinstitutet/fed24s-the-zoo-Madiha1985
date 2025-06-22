@@ -1,8 +1,9 @@
-
+import fallbackImg from '../../assets/fallbackimage.jpg'
 import type { IAnimal } from '../../models/IAnimal';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 const MotionCard = styled(motion.div)`
   cursor: pointer;
@@ -41,10 +42,14 @@ interface Props {
 
 export default function AnimalCard({ animal }:Props){
   const navigate = useNavigate();
-
+const [imgSrc, setImgSrc] = useState(animal.imageUrl);
   const handleClick = () => {
     navigate(`/animals/${animal.id}`);
   };
+  const handleImgError = () => {
+  setImgSrc(fallbackImg); 
+};
+
 
   return (
     <MotionCard onClick={handleClick}
@@ -61,7 +66,7 @@ export default function AnimalCard({ animal }:Props){
     repeatDelay: 2,
   }}
     >
-      <Img src={animal.imageUrl} alt={animal.name} />
+      <Img src={imgSrc} alt={animal.name} onError={handleImgError} />
       <Content>
         <Name>{animal.name}</Name>
         <ShortDesc>{animal.shortDescription}</ShortDesc>
