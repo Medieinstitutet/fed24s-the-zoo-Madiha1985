@@ -70,8 +70,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller de grundläggande kraven enligt betyg G, inklusive användning av router och spara tider för matning av djur. Bildhantering och grundläggande CSS-styling finns också implementerat.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Projektet har uppfyllt alla krav för betyget G och VG. Koden använder en router med child-routes och hanterar fel. En översiktssida för djuren med klickbara djurkort finns implementerad. Djuren kan matas och matningstiden sparas korrekt, vilket också syns genom statusindikatorer på djursidorna utifrån specificerade tidsramar. Trasiga bildlänkar hanteras genom fallback-bilder. CSS är implementerad med hjälp av styled-components och framer-motion för subtila animeringar. Data hämtas genom tjänster, och context samt reducers används för att hantera djurdata.
 
 💡 **Förbättringsförslag:**  
-För att nå VG bör projektet visa tydligare implementation av context och reducers samt förbättra designen med moderna stylingsmetoder såsom SCSS eller Tailwind. Subtila animeringar vid gränssnittsförändringar kan också adderas för användarupplevelsen.
+Inga större förbättringar behövs. Code quality kan alltid förbättras genom ökad modularitet och om det går, isolering av funktionalitet till specifika moduler eller hooks, men den nuvarande strukturen är redan tydlig och välorganiserad.
