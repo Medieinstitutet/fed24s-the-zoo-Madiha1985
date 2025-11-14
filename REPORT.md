@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-Madiha1985
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,12 +65,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla G-kraven, inklusive router, översikt på djur, matningslogik och bildhantering. Context och useReducer används dock inte, vilket är nödvändigt för VG.
+📌 **Motivering:** Koden uppfyller alla krav för betyget G enligt uppgiften. Projektet har en bra struktur och organisation, följer etablerade konventioner för frontend-utveckling och har effektiv felhantering. Dock saknas vissa aspekter som krävs för VG, såsom användning av context och reducers samt subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-För att nå VG, integrera React Context och useReducer för att hantera djurdata och komponentkommunikation.
+För att nå VG-nivå kan studenten implementera användning av context för kommunikation mellan komponenter och reducers för hantering av djur. Dessutom kan UI förbättras med subtila animeringar för bättre användarupplevelse. DRY-principen kan tillämpas mer konsekvent genom att extrahera gemensam logik till hjälpfunktioner.
