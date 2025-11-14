@@ -69,7 +69,7 @@ Ha roligt, skratta och lär er massor!
 
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller alla krav för betyget G enligt uppgiften. Projektet har en bra struktur och organisation, följer etablerade konventioner för frontend-utveckling och har effektiv felhantering. Dock saknas vissa aspekter som krävs för VG, såsom användning av context och reducers samt subtila animeringar.
+📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Koden är organiserad och funktionaliteten som beskrivs i uppgiften är implementerad. Det finns dock förbättringsområden som kan adresseras för att nå VG-nivå, såsom användning av context API och reducers, samt förbättrad användarupplevelse genom subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-För att nå VG-nivå kan studenten implementera användning av context för kommunikation mellan komponenter och reducers för hantering av djur. Dessutom kan UI förbättras med subtila animeringar för bättre användarupplevelse. DRY-principen kan tillämpas mer konsekvent genom att extrahera gemensam logik till hjälpfunktioner.
+För att nå VG-nivå bör studenten implementera context API för komponentkommunikation och använda reducers för state management. Dessutom kan subtila animeringar vid interaktioner och förbättrad felhantering vid API-anrop bidra till en mer robust och användarvänlig applikation. Att lägga till fler kommentarer för att förklara komplexa delar av koden kan också förbättra kodens läsbarhet.
