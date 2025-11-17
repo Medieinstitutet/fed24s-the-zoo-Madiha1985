@@ -69,10 +69,7 @@ Ha roligt, skratta och lär er massor!
 
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Koden uppfyller alla grundläggande krav för betyget G. Studenten har implementerat en router för att navigera mellan olika sidor och hanterar trasiga bildlänkar korrekt. Styling görs med en teknik utöver ren CSS. Funktionaliteten för att mata djur och spara tiden är också implementerad. Dock saknas vissa avancerade funktioner som krävs för VG, såsom användning av context och reducers för state management, samt subtila animeringar.
+📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyget G. Studenten har implementerat en router för att visa olika sidor, hanterar trasiga bildlänkar korrekt, och har en översiktssida där djur kan klickas på för mer information. Funktionaliteten för att mata djur och spara tiden för matningen är också implementerad. Styling är genomförd med hjälp av styled-components, vilket uppfyller kravet på att använda en annan teknik än ren CSS. För att nå VG-nivå behöver projektet inkludera användning av context för kommunikation mellan komponenter och reducers istället för state för hantering av djur. Det saknas också implementation av diskret presentation av djurens status på översiktssidan beroende på matningstiderna. Användning av subtila animeringar vid klick på knappar och route-förändringar kan förbättras.
 
 💡 **Förbättringsförslag:**  
-1. Implementera context och reducers för att hantera state, vilket kan förbättra kodens struktur och underhållbarhet.
-2. Använd tjänster eller custom hooks för datahämtning, vilket ökar modularitet och återanvändbarhet.
-3. Lägg till subtila animeringar vid användarinteraktioner för att förbättra användarupplevelsen.
-4. Förbättra felhanteringen och användargränssnittets responsivitet för att säkerställa en mer robust och användarvänlig applikation.
+För att förbättra projektet och nå VG-nivå bör studenten fokusera på att implementera context och reducers för bättre hantering av state och komponentkommunikation. Det är också viktigt att implementera en diskret presentation av djurens status beroende på matningstiderna på översiktssidan. Användning av subtila animeringar vid klick på knappar och route-förändringar kan förbättra användarupplevelsen. Att inkludera specifika exempel eller förslag på hur dessa förbättringar kan implementeras skulle ge studenten ännu mer konkreta verktyg för att förbättra sitt projekt.
